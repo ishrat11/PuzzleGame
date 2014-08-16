@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.puzzlegame"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.puzzlegame.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity  android:name="com.example.puzzlegame.rule"/>
+         
+       <activity  android:name="com.example.puzzlegame.Play"/>
+       
+        
+         <activity  android:name="com.example.puzzlegame.Result"/>
+         <activity  android:name="com.example.puzzlegame.secondLevel"/>
+          <activity  android:name="com.example.puzzlegame.secondLevel1"/>
+          <activity  android:name="com.example.puzzlegame.Result1"/>
+         
+          <activity  android:name="com.example.puzzlegame.finalLayout"/>
+           <activity  android:name="com.example.puzzlegame.finalLevel"/>
+            <activity  android:name="com.example.puzzlegame.Result2"/>
+          
+            <activity  android:name="com.example.puzzlegame.Final_Result"/>
+          
+         
+          
+    </application>
+
+</manifest>
